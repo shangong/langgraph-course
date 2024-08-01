@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "langgraph-course"
+version = "0.1.0"
+description = ""
+authors = ["Shang <ong.shang@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^1.0.1"
+isort = "^5.13.2"
+langchain = "^0.2.11"
+langchain-openai = "^0.1.20"
+langgraph = "^0.1.19"
+grandalf = "^0.8"
+langchain-ollama = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
